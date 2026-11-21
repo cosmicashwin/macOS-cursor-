@@ -1,0 +1,34 @@
+
+[Version]
+Signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles=Scheme.Cur
+AddReg=Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur=10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\Normal.cur,%10%\%CUR_DIR%\Help.cur,%10%\%CUR_DIR%\Working.ani,%10%\%CUR_DIR%\Busy.ani,%10%\%CUR_DIR%\Precision Select.cur,%10%\%CUR_DIR%\Text Select.cur,%10%\%CUR_DIR%\Handwriting.cur,%10%\%CUR_DIR%\Unavailable.cur,%10%\%CUR_DIR%\Vertical Resize.cur,%10%\%CUR_DIR%\Horizontal Resize.cur,%10%\%CUR_DIR%\Diagonal Resize 1.cur,%10%\%CUR_DIR%\Diagonal Resize 2.cur,%10%\%CUR_DIR%\Move.cur,%10%\%CUR_DIR%\Alternate.cur,%10%\%CUR_DIR%\Link.cur,%10%\%CUR_DIR%\Link.cur,%10%\%CUR_DIR%\Link.cur"
+
+[Scheme.Cur]
+"Help.cur"
+"Horizontal Resize.cur"
+"Link.cur"
+"Move.cur"
+"Normal.cur"
+"Precision Select.cur"
+"Text Select.cur"
+"Unavailable.cur"
+"Vertical Resize.cur"
+"Working.ani"
+"Alternate.cur"
+"Busy.ani"
+"Diagonal Resize 1.cur"
+"Diagonal Resize 2.cur"
+"Handwriting.cur"
+
+[Strings]
+CUR_DIR="Cursors\macOS"
+SCHEME_NAME="macOS Cursor"
